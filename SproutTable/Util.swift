@@ -10,5 +10,7 @@ import Foundation
 
 class Util
 {
-
+    func fnGetName() -> String{
+        return "흐흐"
+    }
 }

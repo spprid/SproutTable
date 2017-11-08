@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let jsonUrl = "https://gw.sinsago.co.kr/m/rice_json.aspx"
+        
+        Alamofire.request(jsonUrl).responseJSON(){ response in
+            
+            print(response.result.isSuccess)
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

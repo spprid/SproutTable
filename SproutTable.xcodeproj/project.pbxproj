@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CE90A652927416D3C6B5400 /* Pods_SproutTableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD9235F9594490CC119BA1B /* Pods_SproutTableUITests.framework */; };
+		51885E3ADA87C1BEF19272BE /* Pods_SproutTableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD70F249CDE62582F4426A1 /* Pods_SproutTableTests.framework */; };
 		C13FA8BD1FB3492900516527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FA8BC1FB3492900516527 /* AppDelegate.swift */; };
 		C13FA8BF1FB3492900516527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FA8BE1FB3492900516527 /* ViewController.swift */; };
 		C13FA8C21FB3492900516527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13FA8C01FB3492900516527 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		C13FA8D21FB3492900516527 /* SproutTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FA8D11FB3492900516527 /* SproutTableTests.swift */; };
 		C13FA8DD1FB3492900516527 /* SproutTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FA8DC1FB3492900516527 /* SproutTableUITests.swift */; };
 		C13FA8EB1FB352B600516527 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FA8EA1FB352B600516527 /* Util.swift */; };
+		EE760BD91F0B8AE8C5A26CF1 /* Pods_SproutTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA62F759C102C5E896F6E5F /* Pods_SproutTable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021C9CB0878D9E67559B850E /* Pods-SproutTableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTableTests/Pods-SproutTableTests.release.xcconfig"; sourceTree = "<group>"; };
+		078BC4C4627993AC94EAF377 /* Pods-SproutTableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTableUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTableUITests/Pods-SproutTableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD9235F9594490CC119BA1B /* Pods_SproutTableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SproutTableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C92C0B6091C657CFFA566CD /* Pods-SproutTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTable/Pods-SproutTable.release.xcconfig"; sourceTree = "<group>"; };
+		3BA62F759C102C5E896F6E5F /* Pods_SproutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SproutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C1E759382F4368E977C97E /* Pods-SproutTableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTableUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTableUITests/Pods-SproutTableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		972E05D790592733690F8184 /* Pods-SproutTableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTableTests/Pods-SproutTableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD70F249CDE62582F4426A1 /* Pods_SproutTableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SproutTableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10098F2C6877CAEF3FE29BD /* Pods-SproutTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SproutTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SproutTable/Pods-SproutTable.debug.xcconfig"; sourceTree = "<group>"; };
 		C13FA8B91FB3492900516527 /* SproutTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SproutTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13FA8BC1FB3492900516527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C13FA8BE1FB3492900516527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE760BD91F0B8AE8C5A26CF1 /* Pods_SproutTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51885E3ADA87C1BEF19272BE /* Pods_SproutTableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE90A652927416D3C6B5400 /* Pods_SproutTableUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD6F4153C1B2A62FF73EE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA62F759C102C5E896F6E5F /* Pods_SproutTable.framework */,
+				BBD70F249CDE62582F4426A1 /* Pods_SproutTableTests.framework */,
+				0AD9235F9594490CC119BA1B /* Pods_SproutTableUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F0E0E3FFFBE4B27F3BC6DF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10098F2C6877CAEF3FE29BD /* Pods-SproutTable.debug.xcconfig */,
+				2C92C0B6091C657CFFA566CD /* Pods-SproutTable.release.xcconfig */,
+				972E05D790592733690F8184 /* Pods-SproutTableTests.debug.xcconfig */,
+				021C9CB0878D9E67559B850E /* Pods-SproutTableTests.release.xcconfig */,
+				078BC4C4627993AC94EAF377 /* Pods-SproutTableUITests.debug.xcconfig */,
+				54C1E759382F4368E977C97E /* Pods-SproutTableUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C13FA8B01FB3492900516527 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				C13FA8D01FB3492900516527 /* SproutTableTests */,
 				C13FA8DB1FB3492900516527 /* SproutTableUITests */,
 				C13FA8BA1FB3492900516527 /* Products */,
+				2F0E0E3FFFBE4B27F3BC6DF7 /* Pods */,
+				2CD6F4153C1B2A62FF73EE3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13FA8E11FB3492900516527 /* Build configuration list for PBXNativeTarget "SproutTable" */;
 			buildPhases = (
+				96586ADB611AE34A65B03B3C /* [CP] Check Pods Manifest.lock */,
 				C13FA8B51FB3492900516527 /* Sources */,
 				C13FA8B61FB3492900516527 /* Frameworks */,
 				C13FA8B71FB3492900516527 /* Resources */,
+				3939911BDCFCF2E9CA151EEA /* [CP] Embed Pods Frameworks */,
+				3EF02EA3569B60CBC05D09B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13FA8E41FB3492900516527 /* Build configuration list for PBXNativeTarget "SproutTableTests" */;
 			buildPhases = (
+				43429C5CDE643209893B6835 /* [CP] Check Pods Manifest.lock */,
 				C13FA8C91FB3492900516527 /* Sources */,
 				C13FA8CA1FB3492900516527 /* Frameworks */,
 				C13FA8CB1FB3492900516527 /* Resources */,
+				0BF46CC1E7A862713F5D004B /* [CP] Embed Pods Frameworks */,
+				4E1A2077A4FD9DA5AC168B32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13FA8E71FB3492900516527 /* Build configuration list for PBXNativeTarget "SproutTableUITests" */;
 			buildPhases = (
+				ADA1F3F99B912FE2049C6FCB /* [CP] Check Pods Manifest.lock */,
 				C13FA8D41FB3492900516527 /* Sources */,
 				C13FA8D51FB3492900516527 /* Frameworks */,
 				C13FA8D61FB3492900516527 /* Resources */,
+				44940469525B4A3CFAD6B63F /* [CP] Embed Pods Frameworks */,
+				F4FFE931AAADDDADF693993C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF46CC1E7A862713F5D004B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTableTests/Pods-SproutTableTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3939911BDCFCF2E9CA151EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SproutTable/Pods-SproutTable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTable/Pods-SproutTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF02EA3569B60CBC05D09B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTable/Pods-SproutTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43429C5CDE643209893B6835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SproutTableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44940469525B4A3CFAD6B63F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTableUITests/Pods-SproutTableUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1A2077A4FD9DA5AC168B32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTableTests/Pods-SproutTableTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96586ADB611AE34A65B03B3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SproutTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA1F3F99B912FE2049C6FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SproutTableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FFE931AAADDDADF693993C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SproutTableUITests/Pods-SproutTableUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C13FA8B51FB3492900516527 /* Sources */ = {
@@ -428,6 +629,7 @@
 		};
 		C13FA8E21FB3492900516527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10098F2C6877CAEF3FE29BD /* Pods-SproutTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +645,7 @@
 		};
 		C13FA8E31FB3492900516527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C92C0B6091C657CFFA566CD /* Pods-SproutTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +661,7 @@
 		};
 		C13FA8E51FB3492900516527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972E05D790592733690F8184 /* Pods-SproutTableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +679,7 @@
 		};
 		C13FA8E61FB3492900516527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021C9CB0878D9E67559B850E /* Pods-SproutTableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +697,7 @@
 		};
 		C13FA8E81FB3492900516527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078BC4C4627993AC94EAF377 /* Pods-SproutTableUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +714,7 @@
 		};
 		C13FA8E91FB3492900516527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C1E759382F4368E977C97E /* Pods-SproutTableUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
